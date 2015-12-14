@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA6250C11C1F2A3400386D9C /* APCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = FA6250C01C1F2A3400386D9C /* APCoder.m */; };
+		FA6250C41C1F306900386D9C /* APAnimal.m in Sources */ = {isa = PBXBuildFile; fileRef = FA6250C31C1F306900386D9C /* APAnimal.m */; };
+		FA6250C71C1F30EF00386D9C /* APCat.m in Sources */ = {isa = PBXBuildFile; fileRef = FA6250C61C1F30EF00386D9C /* APCat.m */; };
+		FA6250CA1C1F30FD00386D9C /* APDog.m in Sources */ = {isa = PBXBuildFile; fileRef = FA6250C91C1F30FD00386D9C /* APDog.m */; };
 		FAE8458E1C1F1CAB0080F15F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE8458D1C1F1CAB0080F15F /* main.m */; };
 		FAE845911C1F1CAB0080F15F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE845901C1F1CAB0080F15F /* AppDelegate.m */; };
 		FAE845941C1F1CAB0080F15F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE845931C1F1CAB0080F15F /* ViewController.m */; };
@@ -15,6 +19,10 @@
 		FAE8459C1C1F1CAB0080F15F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAE8459A1C1F1CAB0080F15F /* LaunchScreen.storyboard */; };
 		FAE845A71C1F1CAB0080F15F /* Lesson_5_HW__2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE845A61C1F1CAB0080F15F /* Lesson_5_HW__2Tests.m */; };
 		FAE845B21C1F1CAB0080F15F /* Lesson_5_HW__2UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE845B11C1F1CAB0080F15F /* Lesson_5_HW__2UITests.m */; };
+		FAE845C11C1F1CE30080F15F /* APHuman.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE845C01C1F1CE30080F15F /* APHuman.m */; };
+		FAE845C41C1F1F390080F15F /* APBicycler.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE845C31C1F1F390080F15F /* APBicycler.m */; };
+		FAE845C71C1F1F4B0080F15F /* APRunner.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE845C61C1F1F4B0080F15F /* APRunner.m */; };
+		FAE845CA1C1F1F6A0080F15F /* APSwimmer.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE845C91C1F1F6A0080F15F /* APSwimmer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +43,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FA6250BF1C1F2A3400386D9C /* APCoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APCoder.h; sourceTree = "<group>"; };
+		FA6250C01C1F2A3400386D9C /* APCoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APCoder.m; sourceTree = "<group>"; };
+		FA6250C21C1F306900386D9C /* APAnimal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APAnimal.h; sourceTree = "<group>"; };
+		FA6250C31C1F306900386D9C /* APAnimal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APAnimal.m; sourceTree = "<group>"; };
+		FA6250C51C1F30EF00386D9C /* APCat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APCat.h; sourceTree = "<group>"; };
+		FA6250C61C1F30EF00386D9C /* APCat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APCat.m; sourceTree = "<group>"; };
+		FA6250C81C1F30FD00386D9C /* APDog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APDog.h; sourceTree = "<group>"; };
+		FA6250C91C1F30FD00386D9C /* APDog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APDog.m; sourceTree = "<group>"; };
 		FAE845891C1F1CAB0080F15F /* Lesson 5 HW #2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lesson 5 HW #2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAE8458D1C1F1CAB0080F15F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FAE8458F1C1F1CAB0080F15F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +67,14 @@
 		FAE845AD1C1F1CAB0080F15F /* Lesson 5 HW #2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lesson 5 HW #2UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAE845B11C1F1CAB0080F15F /* Lesson_5_HW__2UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Lesson_5_HW__2UITests.m; sourceTree = "<group>"; };
 		FAE845B31C1F1CAB0080F15F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAE845BF1C1F1CE30080F15F /* APHuman.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APHuman.h; sourceTree = "<group>"; };
+		FAE845C01C1F1CE30080F15F /* APHuman.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APHuman.m; sourceTree = "<group>"; };
+		FAE845C21C1F1F390080F15F /* APBicycler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APBicycler.h; sourceTree = "<group>"; };
+		FAE845C31C1F1F390080F15F /* APBicycler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APBicycler.m; sourceTree = "<group>"; };
+		FAE845C51C1F1F4B0080F15F /* APRunner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APRunner.h; sourceTree = "<group>"; };
+		FAE845C61C1F1F4B0080F15F /* APRunner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APRunner.m; sourceTree = "<group>"; };
+		FAE845C81C1F1F6A0080F15F /* APSwimmer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APSwimmer.h; sourceTree = "<group>"; };
+		FAE845C91C1F1F6A0080F15F /* APSwimmer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APSwimmer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +125,22 @@
 		FAE8458B1C1F1CAB0080F15F /* Lesson 5 HW #2 */ = {
 			isa = PBXGroup;
 			children = (
+				FAE845BF1C1F1CE30080F15F /* APHuman.h */,
+				FAE845C01C1F1CE30080F15F /* APHuman.m */,
+				FAE845C51C1F1F4B0080F15F /* APRunner.h */,
+				FAE845C61C1F1F4B0080F15F /* APRunner.m */,
+				FAE845C21C1F1F390080F15F /* APBicycler.h */,
+				FAE845C31C1F1F390080F15F /* APBicycler.m */,
+				FAE845C81C1F1F6A0080F15F /* APSwimmer.h */,
+				FAE845C91C1F1F6A0080F15F /* APSwimmer.m */,
+				FA6250BF1C1F2A3400386D9C /* APCoder.h */,
+				FA6250C01C1F2A3400386D9C /* APCoder.m */,
+				FA6250C21C1F306900386D9C /* APAnimal.h */,
+				FA6250C31C1F306900386D9C /* APAnimal.m */,
+				FA6250C51C1F30EF00386D9C /* APCat.h */,
+				FA6250C61C1F30EF00386D9C /* APCat.m */,
+				FA6250C81C1F30FD00386D9C /* APDog.h */,
+				FA6250C91C1F30FD00386D9C /* APDog.m */,
 				FAE8458F1C1F1CAB0080F15F /* AppDelegate.h */,
 				FAE845901C1F1CAB0080F15F /* AppDelegate.m */,
 				FAE845921C1F1CAB0080F15F /* ViewController.h */,
@@ -270,8 +310,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA6250CA1C1F30FD00386D9C /* APDog.m in Sources */,
+				FAE845C41C1F1F390080F15F /* APBicycler.m in Sources */,
 				FAE845941C1F1CAB0080F15F /* ViewController.m in Sources */,
+				FA6250C41C1F306900386D9C /* APAnimal.m in Sources */,
+				FA6250C11C1F2A3400386D9C /* APCoder.m in Sources */,
+				FAE845CA1C1F1F6A0080F15F /* APSwimmer.m in Sources */,
+				FAE845C71C1F1F4B0080F15F /* APRunner.m in Sources */,
 				FAE845911C1F1CAB0080F15F /* AppDelegate.m in Sources */,
+				FA6250C71C1F30EF00386D9C /* APCat.m in Sources */,
+				FAE845C11C1F1CE30080F15F /* APHuman.m in Sources */,
 				FAE8458E1C1F1CAB0080F15F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -496,6 +544,7 @@
 				FAE845B81C1F1CAB0080F15F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FAE845B91C1F1CAB0080F15F /* Build configuration list for PBXNativeTarget "Lesson 5 HW #2Tests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +553,7 @@
 				FAE845BB1C1F1CAB0080F15F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FAE845BC1C1F1CAB0080F15F /* Build configuration list for PBXNativeTarget "Lesson 5 HW #2UITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +562,7 @@
 				FAE845BE1C1F1CAB0080F15F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
